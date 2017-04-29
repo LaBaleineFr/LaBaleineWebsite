@@ -1,0 +1,18 @@
+{
+  "name": "LaBaleine",
+  "version": "1.0.0",
+  "description": "Official webiste of La Baleine community",
+  "author": "Brykou <brykou@gmail.com>",
+  "private": true,
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "nuxt": "latest",
+    "tachyons": "^4.6.1"
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  }
+}
