@@ -33,7 +33,9 @@ module.exports = {
   ** Route for static generation
   */
   generate: {
-    routeParams: {
+      routes: [
+        '/bien-commencer',
+        '/ressources',
+      ]
     }
-  }
 }
