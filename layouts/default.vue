@@ -16,7 +16,7 @@
 <script>
 import AppFooter from '~components/Footer.vue'
 import AppMenu from '~components/Menu.vue'
-import config from '../config/project.js';
+import config from '../project.config.js';
 
 export default {
   data(context) {
