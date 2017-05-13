@@ -5,16 +5,21 @@
       <span class="white b f3" style="line-height: 2rem">{{siteName}}</span>
     </a>
     <div class="db dtc-l v-mid w-100 w-75-l tc tr-l">
-      <a class="link white dim f6 f5-l dib mr3 mr4-l" href="/bien-commencer" title="Comment bien commencer ?">
+      <a class="link white dim f6 f5-l dib mr3 mr4-l" href="/bien-commencer" title="Les informations pour bien commencer">
         Comment bien commencer ?
       </a>
-      <a class="link white dim f6 f5-l dib" href="/ressources" title="Ressources">Ressources</a>
+      <a class="link white dim f6 f5-l dib mr3 mr4-l" href="/lexique" title="Définitions des termes utilisés dans le milieu des crypto monnaies">
+        Lexique
+      </a>
+      <a class="link white dim f6 f5-l dib" href="/ressources" title="Toutes les ressources indispensables pour le crypto trading">
+        Ressources
+      </a>
     </div>
   </nav>
 </template>
 
 <script>
-import config from '../config/project.js';
+import config from '../project.config.js';
 
 export default {
   data(context) {

@@ -36,6 +36,7 @@ module.exports = {
       routes: [
         '/bien-commencer',
         '/ressources',
+        '/lexique',
       ]
     }
 }

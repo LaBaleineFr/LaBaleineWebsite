@@ -25,7 +25,8 @@
 </template>
 
 <script>
-import config from '../config/project.js';
+import config from '../project.config.js';
+
 export default {
   data() {
     return {
