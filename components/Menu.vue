@@ -6,7 +6,7 @@
     </a>
     <div class="db dtc-l v-mid w-100 w-75-l tc tr-l">
       <a class="link white dim f6 f5-l dib mr3 mr4-l" href="/bien-commencer" title="Les informations pour bien commencer">
-        Comment bien commencer ?
+        Bien commencer
       </a>
       <a class="link white dim f6 f5-l dib mr3 mr4-l" href="/lexique" title="Définitions des termes utilisés dans le milieu des crypto monnaies">
         Lexique
