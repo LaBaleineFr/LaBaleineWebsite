@@ -7,6 +7,7 @@
       <Card title="Youtube" :url="youtubeUrl" image="youtube.png" />
       <Card title="Discord" :url="discordUrl" image="discord.svg" />
     </section>
+    <h2 class="f4 tc">Présentation du projet La Baleine</h2>
     <section class="w-100 w-60-l mw-100 center mt4">
       <article class="video-container">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/STwOr0nYz1I" frameborder="0" allowfullscreen></iframe>
