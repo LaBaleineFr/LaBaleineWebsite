@@ -39,7 +39,7 @@
     <h2 class="mb3">Outils et applications</h2>
     <ul>
       <li class="list lh-title mb1">
-        <a class="link dim" href="cryptoProjectionBaleine.xlsx" target="blank">Projection des gains: </a>Tableur excel permettant de suivre et d'estimer ses gains futurs
+        <a class="link dim" href="/cryptoProjectionBaleine.xlsx" target="blank">Projection des gains: </a>Tableur excel permettant de suivre et d'estimer ses gains futurs
       </li>
       <li class="list lh-title mb1">
         <a class="link dim" href="http://blockfolio.com/" target="blank">Blockfolio: </a>Application mobile permettant de suivre le cours des crypto monnaies
