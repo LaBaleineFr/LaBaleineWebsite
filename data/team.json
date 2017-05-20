@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Brykou",
+    "description": "Dev front",
+    "image": "/profile/brykou.jpg",
+    "github": "https://github.com/Brykou"
+  },
+  {
+    "name": "Oppenheimer",
+    "description": "Dev back",
+    "image": "/profile/oppenheimer.jpg",
+    "github": "https://github.com/johnoppenheimer"
+  },
+  {
+    "name": "Pouley",
+    "description": "Dev back",
+    "image": "/profile/pouley.jpg",
+    "github": "https://github.com/Pouleyy"
+  },
+  {
+    "name": "Jérémy",
+    "description": "Dev back",
+    "image": "/profile/jeremy.jpg",
+    "github": "https://github.com/limace10"
+  },
+  {
+    "name": "SushiFu",
+    "description": "Dev ops",
+    "image": "/profile/sushifu.jpg",
+    "github": "https://github.com/SushiFu"
+  },
+  {
+    "name": "Batale",
+    "description": "Dev machine learning",
+    "image": "/profile/batale.png",
+    "github": "https://github.com/Batalex"
+  }
+]

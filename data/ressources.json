@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Achat et trading de crypto monnaies",
+    "links": [
+      {
+        "name": "Kraken",
+        "url": "https://www.kraken.com/",
+        "description": "Achat de bitcoin par virement"
+      },
+      {
+        "name": "Cex.io*",
+        "url": "https://cex.io/r/0/up104814358/0/",
+        "description": "Achat de bitcoin par carte bancaire avec limite élevée"
+      },
+      {
+        "name": "Coinbase*",
+        "url": "https://goo.gl/ApG4V7",
+        "description": "Achat de bitcoin par carte bancaire"
+      },
+      {
+        "name": "Bittrex",
+        "url": "https://bittrex.com/",
+        "description": "Plateforme d'échange de crypto monnaie"
+      },
+      {
+        "name": "Poloniex",
+        "url": "https://poloniex.com/",
+        "description": "Plateforme d'échange de crypto monnaie"
+      }
+    ]
+  },
+  {
+    "title": "Informations sur les crypto monnaies",
+    "links": [
+      {
+        "name": "Bitcointicker",
+        "url": "http://bitcointicker.co/news/",
+        "description": "Cours du bitcoin + news sur la monnaie"
+      },
+      {
+        "name": "CoinMarCap",
+        "url": "https://coinmarketcap.com/",
+        "description": "Site regroupant le prix de +600 cryptos"
+      },
+      {
+        "name": "Bitcointalk",
+        "url": "https://bitcointalk.org",
+        "description": "Principal forum sur les crypto monnaies (anglais et français)"
+      },
+      {
+        "name": "Liste twitter",
+        "url": "https://twitter.com/brykou/lists/crypto",
+        "description": "Liste Twitter regroupant les comptes les plus importants"
+      }
+    ]
+  },
+  {
+    "title": "Outils et applications",
+    "links": [
+      {
+        "name": "Projection des gains",
+        "url": "/cryptoProjectionBaleine.xlsx",
+        "description": "Tableur excel permettant de suivre et d'estimer ses gains futurs"
+      },
+      {
+        "name": "Blockfolio",
+        "url": "http://blockfolio.com/",
+        "description": "Application mobile permettant de suivre le cours des crypto monnaies"
+      }
+    ]
+  }
+]

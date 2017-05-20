@@ -18,6 +18,7 @@
 import config from '../project.config.js';
 
 export default {
+  name: 'Footer',
   data() {
     return {
       label:`${config.siteName} © ${new Date().getFullYear()}`,

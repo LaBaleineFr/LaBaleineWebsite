@@ -1,5 +1,5 @@
 <template>
-  <div class="mw8 mb5 center ph4 ph2-l">
+  <div class="mw8 mb5 center ph3 ph2-l">
     <h2 class="f5 bg-light-gray mb5 pa3 br2 tc">{{opening}}</h2>
     <section class="flex flex-wrap justify-around mb5">
       <Card title="Twitter" :url="twitterUrl" image="twitter.svg" />
