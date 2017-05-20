@@ -1,5 +1,5 @@
 <template>
-  <article class="mw8 mb5 center ph4 ph2-l">
+  <article class="mw8 mb5 center ph3 ph2-l">
     <h2 class="tc mb4">Comment bien commencer dans les crypto monnaies ?</h2>
     <section class="mb5">
       Quand on débute dans les crypto monnaies, on ne sait en général pas trop par où commencer, ni où aller chercher des informations.

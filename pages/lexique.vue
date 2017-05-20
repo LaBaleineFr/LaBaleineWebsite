@@ -1,5 +1,5 @@
 <template>
-  <div class="mw8 mb5 center ph4 ph2-l">
+  <div class="mw8 mb5 center ph3 ph2-l">
     <h2 class="mb4 tc">Lexique crypto monnaies</h2>
     <input
       class="input-reset ba b--black-20 pa2 mb4 db w-100"

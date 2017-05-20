@@ -7,4 +7,5 @@ export default {
   youtubeUrl: 'https://www.youtube.com/channel/UCdEgqcbima-Bv5jnArrXiKA?feature=hovercard?&ab_channel=LaBaleine',
   discordUrl: 'https://discordapp.com/invite/2YY5EUt',
   email: 'baleinefr@gmail.com',
+  github: 'https://github.com/LaBaleineFr',
 }

@@ -1,5 +1,5 @@
 <template>
-  <div class="mw8 mb5 center ph4 ph2-l">
+  <div class="mw8 mb5 center ph3 ph2-l">
     <div class="mb4" v-for="ressource in ressources">
       <h2 class="mb3">{{ressource.title}}</h2>
       <dl v-for="link in ressource.links">
