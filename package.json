@@ -8,7 +8,7 @@
     "axios": "^0.16.1",
     "lodash": "^4.17.4",
     "nuxt": "latest",
-    "tachyons": "^4.6.1"
+    "tachyons": "^4.7.4"
   },
   "scripts": {
     "dev": "nuxt",

@@ -23,7 +23,7 @@ module.exports = {
   css: [
     '~assets/css/main.css',
     '~assets/css/normalize.css',
-    { src: 'tachyons', lang: 'css' },
+    'tachyons/css/tachyons.min.css',
   ],
   /*
   ** Customize the progress-bar color
