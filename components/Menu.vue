@@ -11,9 +11,6 @@
       <a class="link white dim f6 f5-l dib mr4-l" href="/ressources" title="Toutes les ressources indispensables pour le crypto trading">
         Ressources
       </a>
-      <a class="link white dim f6 f5-l dib" href="/la-team" title="L'équipe de dev de La Baleine">
-        La team
-      </a>
     </div>
   </nav>
 </template>
