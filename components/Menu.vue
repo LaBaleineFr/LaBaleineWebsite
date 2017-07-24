@@ -1,5 +1,5 @@
 <template>
-  <nav class="db dt-l w-100 border-box mb4 pa3 ph5-l bg-near-black">
+  <nav class="db dt-l w-100 border-box mb4 pa3 ph5-l bg-blue">
     <a class="db dtc-l v-mid mid-gray link dim w-100 w-25-l tc tl-l mb2 mb0-l" href="/" title="Home">
       <img class="w2 fl mr1" src="/favicon.ico" alt="Logo">
       <span class="white b f3" style="line-height: 2rem">{{siteName}}</span>
@@ -27,9 +27,3 @@ export default {
   },
 }
 </script>
-
-<style scoped>
-nav {
-  background-color: #00B1FF;
-}
-</style>

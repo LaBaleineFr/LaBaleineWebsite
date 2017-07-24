@@ -1,6 +1,8 @@
 export default {
   siteName: "La Baleine",
-  opening: 'Bienvenue sur La Baleine, une communauté tournée autour des crypto monnaies, et du trading.',
+  opening: `Bienvenue sur La Baleine, une communauté tournée autour des crypto monnaies, et du trading.
+  L'entrainde et le partage font partis des valeurs qui sont au coeur de La Baleine.
+  C'est pourquoi notre équipe vous propose un ensemble d'outils, et de supports de formation pour vous amméliorer.`,
   twitterUrl: 'https://twitter.com/BaleineFR',
   twitchUrl: 'https://www.twitch.tv/baleinefr',
   youtubeUrl: 'https://www.youtube.com/channel/UCdEgqcbima-Bv5jnArrXiKA?feature=hovercard?&ab_channel=LaBaleine',
