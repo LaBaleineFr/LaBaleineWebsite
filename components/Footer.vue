@@ -1,13 +1,13 @@
 <template>
-  <footer class="bg-black white">
-    <div class="bg-white pt4 pb3">
+  <footer class="bg-near-black white">
+    <div class="bg-white pt3 pb3">
       <h2 class="tc mb3 black">Rejoignez-nous !</h2>
       <section class="flex flex-wrap justify-around justify-between-ns mw8 center">
-        <SocialCard title="Twitter" :url="twitterUrl" image="twitter.svg" />
-        <SocialCard title="Twitch" :url="twitchUrl" image="twitch.svg" />
-        <SocialCard title="Youtube" :url="youtubeUrl" image="youtube.png" />
-        <SocialCard title="Discord" :url="discordUrl" image="discord.svg" />
-        <SocialCard title="Github" :url="githubUrl" image="github.svg" />
+        <SocialCard title="Twitter" :url="twitterUrl" image="/twitter.svg" />
+        <SocialCard title="Twitch" :url="twitchUrl" image="/twitch.svg" />
+        <SocialCard title="Youtube" :url="youtubeUrl" image="/youtube.png" />
+        <SocialCard title="Discord" :url="discordUrl" image="/discord.svg" />
+        <SocialCard title="Github" :url="githubUrl" image="/github.svg" />
       </section>
     </div>
     <div class="flex flex-wrap justify-around mw7 center pv3">

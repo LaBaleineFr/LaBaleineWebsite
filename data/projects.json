@@ -6,9 +6,9 @@
     "image": "/project/chalutier.jpg"
   },
   {
-    "name": "Plankton",
-    "description": "Outil de veille crypto permettant de garder un oeil sur toute l'actualité des crypto",
-    "url": "https://github.com/LaBaleineFr/Plankton",
-    "image": "/project/plankton.jpg"
+    "name": "MiningPool",
+    "description": "Mining pool UBIQ. Rejoignez nous pour miner de l'UBIQ.",
+    "url": "https://ubiq.labaleine.gg/#/",
+    "image": "/project/miningpool.png"
   }
 ]

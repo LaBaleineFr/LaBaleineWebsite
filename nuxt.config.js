@@ -33,10 +33,12 @@ module.exports = {
   ** Route for static generation
   */
   generate: {
-      routes: [
-        '/bien-commencer',
-        '/ressources',
-        '/lexique',
-      ]
-    }
+    routes: [
+      '/ressources',
+      '/lexique',
+    ]
+  },
+  router: {
+   base: '/'
+ }
 }

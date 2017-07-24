@@ -7,13 +7,13 @@
 </template>
 
 <script>
-import AppFooter from '~components/Footer.vue'
-import AppMenu from '~components/Menu.vue'
+import AppMenu from '~/components/Menu'
+import AppFooter from '~/components/Footer'
 
 export default {
   components: {
-    AppFooter,
     AppMenu,
+    AppFooter,
   }
 }
 </script>
