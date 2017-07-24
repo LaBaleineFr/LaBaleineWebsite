@@ -4,8 +4,8 @@
     <div class="w-100 flex flex-column justify-center pa2">
       <div class="f4 f3-l b mb2">{{member.name}}</div>
       <div class="f5 gray mb3">{{member.description}}</div>
-      <a class="link near-black dim" :href="member.github" target="blank" title="GitHub">
-        <github-logo size="25px" />
+      <a class="link near-black dim" :href="member.github" target="blank" :title="githubLinkTitle">
+        <img src="github.svg" width="25px" height="25px" alt="github">
       </a>
     </div>
   </article>
@@ -19,6 +19,11 @@ export default {
       type: Object,
       required: true,
     },
+  },
+  data() {
+    return {
+      githubLinkTitle:`github ${this.member.name}`,
+    }
   },
 }
 </script>
