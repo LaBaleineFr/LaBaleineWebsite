@@ -1,6 +1,7 @@
 import axios from 'axios';
 import ressources from './ressources';
-import team from './team';
+import teamMembers from './teamMembers';
+import projects from './projects';
 
 var baleineBotApi = axios.create({
   baseURL: 'https://api.baleine.036.fr'
@@ -16,11 +17,16 @@ function getRessources(){
 }
 
 function getTeamMembers(){
-  return team;
+  return teamMembers;
+}
+
+function getProjects() {
+  return projects;
 }
 
 export {
   getGlossary,
   getRessources,
   getTeamMembers,
+  getProjects,
 };

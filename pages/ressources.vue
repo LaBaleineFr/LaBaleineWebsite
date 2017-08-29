@@ -1,13 +1,10 @@
 <template>
   <div class="mw8 mb5 center ph3 ph2-l">
-    <div class="mb4" v-for="ressource in ressources">
+    <div v-for="ressource in ressources">
       <h2 class="mb3">{{ressource.title}}</h2>
-      <dl v-for="link in ressource.links">
-        <dt class="list mb2 mr1 dib">
-          <a class="link dim" :href="link.url" target="blank">{{link.name}}: </a>
-        </dt>
-        <dd class="dib">{{link.description}}</dd>
-      </dl>
+      <div class="flex flex-wrap mb4">
+        <RessourceCard :name="link.name" :description="link.description" :url="link.url" v-for="link in ressource.links" :key="link.name" />
+      </div>
     </div>
     <div class="f7">* Liens de parrainage. recevez 10$ dès 100$ d’achat (cela couvre donc les frais par CB) et nous aussi.</div>
   </div>
@@ -16,8 +13,12 @@
 <script>
 import config from '../project.config.js';
 import { getRessources } from '../data';
+import RessourceCard from '../components/RessourceCard.vue';
 
 export default {
+  components: {
+    RessourceCard,
+  },
   data() {
     return {
       ressources: getRessources(),

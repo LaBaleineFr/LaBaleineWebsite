@@ -1,36 +1,34 @@
 <template>
-  <div class="mw8 mb5 center ph3 ph2-l">
-    <h2 class="f5 bg-light-gray mb5 pa3 br2 tc">{{opening}}</h2>
-    <section class="flex flex-wrap justify-around mb5">
-      <Card title="Twitter" :url="twitterUrl" image="twitter.svg" />
-      <Card title="Twitch" :url="twitchUrl" image="twitch.svg" />
-      <Card title="Youtube" :url="youtubeUrl" image="youtube.png" />
-      <Card title="Discord" :url="discordUrl" image="discord.svg" />
+  <div class="mw8 center ph3 ph2-l">
+    <h1 class="f5 bg-light-gray mb5 pa3 br2 tc">{{opening}}</h1>
+    <h2 class="tc mb4">Les projets de La baleine</h2>
+    <section class="flex flex-wrap justify-around justify-between-ns mb5">
+      <ProjectCard :project="project" v-for="project in projects" :key="project.name" />
     </section>
-    <h2 class="f4 tc">Présentation du projet La Baleine</h2>
-    <section class="w-100 w-60-l mw-100 center mt4">
-      <article class="video-container">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/STwOr0nYz1I" frameborder="0" allowfullscreen></iframe>
-      </article>
+    <h2 class="tc mb4">La team La Baleine</h2>
+    <section class="flex flex-wrap justify-around justify-between-ns mb5">
+      <MemberCard :member="member" v-for="member in members" :key="member.name" />
     </section>
   </div>
 </template>
 
 <script>
 import config from '../project.config.js';
-import Card from '../components/Card.vue';
+import { getTeamMembers, getProjects } from '../data';
+import MemberCard from '../components/MemberCard.vue';
+import ProjectCard from '../components/ProjectCard.vue';
 
 export default {
   components: {
-    Card,
+    MemberCard,
+    ProjectCard,
   },
   data() {
     return {
       opening: config.opening,
-      twitterUrl: config.twitterUrl,
-      twitchUrl: config.twitchUrl,
-      youtubeUrl: config.youtubeUrl,
-      discordUrl: config.discordUrl,
+      githubTeam: config.github,
+      members: getTeamMembers(),
+      projects: getProjects(),
     }
   },
 }

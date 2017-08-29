@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Le chalutier",
+    "description": "Outil d'aide à la décision, permettant d'optimiser la répartition de votre portefeuille",
+    "url": "https://github.com/LaBaleineFr/Chalutier",
+    "image": "/project/chalutier.jpg"
+  },
+  {
+    "name": "MiningPool",
+    "description": "Mining pool UBIQ. Rejoignez nous pour miner de l'UBIQ.",
+    "url": "https://ubiq.labaleine.gg/#/",
+    "image": "/project/miningpool.png"
+  }
+]

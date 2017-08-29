@@ -5,10 +5,10 @@
   "author": "Brykou <brykou@gmail.com>",
   "private": true,
   "dependencies": {
-    "axios": "^0.16.1",
+    "axios": "^0.16.2",
     "lodash": "^4.17.4",
     "nuxt": "latest",
-    "tachyons": "^4.6.1"
+    "tachyons": "^4.8.1"
   },
   "scripts": {
     "dev": "nuxt",
