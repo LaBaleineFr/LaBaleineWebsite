@@ -1,9 +1,28 @@
 [
   {
+    "name": "Capet",
+    "description": "Business manager",
+    "image": "/profile/capet.jpg",
+    "twitter": "https://twitter.com/Capetlevrai"
+  },
+  {
+    "name": "Frenchy",
+    "description": "Médecin",
+    "image": "/profile/frenchy.jpg",
+    "twitter": ""
+  },
+  {
+    "name": "Kiwi",
+    "description": "Youtuber",
+    "image": "/profile/kiwi.jpg",
+    "twitter": "https://twitter.com/socallmekiwi"
+  },
+  {
     "name": "Brykou",
     "description": "Dev front",
     "image": "/profile/brykou.jpg",
-    "github": "https://github.com/Brykou"
+    "github": "https://github.com/Brykou",
+    "twitter": "https://twitter.com/Brykou"
   },
   {
     "name": "Oppenheimer",
@@ -15,24 +34,28 @@
     "name": "Pouley",
     "description": "Dev back",
     "image": "/profile/pouley.jpg",
-    "github": "https://github.com/Pouleyy"
+    "github": "https://github.com/Pouleyy",
+    "twitter": "https://twitter.com/Pouleyyy"
   },
   {
     "name": "Jérémy",
     "description": "Dev back",
     "image": "/profile/jeremy.jpg",
-    "github": "https://github.com/limace10"
+    "github": "https://github.com/limace10",
+    "twitter": "https://twitter.com/Limace_"
   },
   {
     "name": "SushiFu",
     "description": "Dev ops",
     "image": "/profile/sushifu.jpg",
-    "github": "https://github.com/SushiFu"
+    "github": "https://github.com/SushiFu",
+    "twitter": "https://twitter.com/sushi_fu"
   },
   {
     "name": "Batale",
     "description": "Dev machine learning",
     "image": "/profile/batale.png",
-    "github": "https://github.com/Batalex"
+    "github": "https://github.com/Batalex",
+    "twitter": "https://twitter.com/BatAlexandre"
   }
 ]

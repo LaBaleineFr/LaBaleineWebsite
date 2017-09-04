@@ -4,8 +4,8 @@
     v-bind:style="{backgroundImage: `url(${project.image})`}"
     :title="project.name"
   >
-    <a :href="project.url" target="blank" class="db ph2 w-100 h-100 link hide-child bg-black-20">
-      <h3 class="f2 white pt3">{{project.name}}</h3>
+    <a :href="project.url" class="db w-100 h-100 link hide-child">
+      <h3 class="f2 w-100 white pt3 absolute bottom-0">{{project.name}}</h3>
       <div class="f4 white w-100 h-100 pa3 bg-blue absolute top-0 left-0 child">
         {{project.description}}
       </div>
