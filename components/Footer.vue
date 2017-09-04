@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-near-black white">
+  <footer class="white">
     <div class="bg-white pt3 pb3">
       <h2 class="tc mb3 black">Rejoignez-nous !</h2>
       <section class="flex flex-wrap justify-around justify-between-ns mw8 center">
@@ -10,15 +10,19 @@
         <SocialCard title="Github" :url="githubUrl" image="/github.svg" />
       </section>
     </div>
-    <div class="flex flex-wrap justify-around mw7 center pv3">
+    <div class="flex flex-wrap justify-around center pv3 bg-near-black">
       <div class="f3 mb3 mb0-ns">{{label}}</div>
       <div class="tc mb3 mb0-ns">
         <div class="f5 mb2">Contact</div>
         <div class="f7 white-70">{{email}}</div>
       </div>
       <div class="tc">
-        <div class="f5 mb2">Soutenir (btc)</div>
+        <div class="f5 mb2">Bitcoin</div>
         <div class="f7 white-70">17qGFLZV1tCHaTU8G7gH2zht7y9cxYHWJE</div>
+      </div>
+      <div class="tc">
+        <div class="f5 mb2">Ethereum</div>
+        <div class="f7 white-70">0x156c261366abaf2e97865f1a8c5cd814e6271f2f</div>
       </div>
     </div>
   </footer>

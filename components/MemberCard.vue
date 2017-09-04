@@ -4,9 +4,14 @@
     <div class="w-100 flex flex-column justify-center pa2">
       <div class="f4 f3-l b mb2">{{member.name}}</div>
       <div class="f5 gray mb3">{{member.description}}</div>
-      <a class="link near-black dim" :href="member.github" target="blank" :title="githubLinkTitle">
-        <img src="github.svg" width="25px" height="25px" alt="github">
-      </a>
+      <div class="flex">
+        <a class="link near-black dim mr2" :href="member.github" target="blank" :title="githubLinkTitle" v-if="member.github">
+          <img src="github.svg" width="25px" height="25px" alt="github">
+        </a>
+        <a class="link near-black dim" :href="member.twitter" target="blank" :title="twitterLinkTitle" v-if="member.twitter">
+          <img src="twitter.svg" width="25px" height="25px" alt="twitter">
+        </a>
+      </div>
     </div>
   </article>
 </template>
@@ -23,6 +28,7 @@ export default {
   data() {
     return {
       githubLinkTitle:`github ${this.member.name}`,
+      twitterLinkTitle:`twitter ${this.member.name}`,
     }
   },
 }

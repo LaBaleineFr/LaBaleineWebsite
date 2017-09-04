@@ -7,8 +7,8 @@
   },
   {
     "name": "MiningPool",
-    "description": "Mining pool UBIQ. Rejoignez nous pour miner de l'UBIQ.",
-    "url": "https://ubiq.labaleine.gg/#/",
-    "image": "/project/miningpool.png"
+    "description": "Mining pool. Rejoignez nous pour miner facilement et efficacement.",
+    "url": "/projets/mining-pool",
+    "image": "/project/mining.jpg"
   }
 ]
