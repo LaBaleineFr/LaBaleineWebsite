@@ -31,5 +31,14 @@ export default {
       projects: getProjects(),
     }
   },
+  head () {
+    return {
+      meta: [{
+        hid: 'google-site-verification',
+        name: 'google-site-verification',
+        content: 'VMDDDoCxlz1w3oCjkCH8X_kLOp64kshjKKS5DPtDlOw'
+      }]
+    }
+  },
 }
 </script>
