@@ -21,8 +21,12 @@
         <div class="f7 white-70">17qGFLZV1tCHaTU8G7gH2zht7y9cxYHWJE</div>
       </div>
       <div class="tc">
-        <div class="f5 mb2">Ethereum</div>
-        <div class="f7 white-70">0x156c261366abaf2e97865f1a8c5cd814e6271f2f</div>
+        <a
+          target="_blank"
+          href="https://shapeshift.io/shifty.html?destination=32N18uL4MDEVodREtcFwzX5viEmT7Zvfoc&amp;output=BTC"
+        >
+          <img src="https://shapeshift.io/images/shifty/xs_dark_altcoins.png" class="ss-button" />
+        </a>
       </div>
     </div>
   </footer>
