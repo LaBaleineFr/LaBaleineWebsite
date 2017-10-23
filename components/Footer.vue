@@ -18,7 +18,7 @@
       </div>
       <div class="tc">
         <div class="f5 mb2">Bitcoin</div>
-        <div class="f7 white-70">17qGFLZV1tCHaTU8G7gH2zht7y9cxYHWJE</div>
+        <div class="f7 white-70">32N18uL4MDEVodREtcFwzX5viEmT7Zvfoc</div>
       </div>
       <div class="tc">
         <a
