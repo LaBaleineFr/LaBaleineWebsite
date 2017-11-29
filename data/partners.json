@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Cryptoast",
+    "description": "Guides et tutos sur le trading et les crypto !",
+    "image": "/partners/cryptoast.jpg",
+    "url": "https://cryptoast.fr/"
+  },
+  {
+    "name": "Coinmarketcal",
+    "description": "Calendrier crypto monnaies communautaire",
+    "image": "/partners/coinmarketcal.jpg",
+    "url": "http://coinmarketcal.com/"
+  },
+  {
+    "name": "Cryptonation",
+    "description": "Actualités et analyses de crypto monnaies",
+    "image": "/partners/cryptonation.png",
+    "url": "http://www.cryptonation.fr/"
+  },
+  {
+    "name": "Cryptalert",
+    "description": "Soyez alerté des variations de cours sur vos crypto",
+    "image": "/partners/cryptalert.jpg",
+    "url": "https://cryptalert.com/"
+  }
+]

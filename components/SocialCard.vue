@@ -1,7 +1,7 @@
 <template>
   <article class="mw5 mh2 br3 grow">
     <a :href="url" target="blank" class="db pa2 tc link">
-      <img :src="image" width="100px" height="100px" class="br-100 dib ba b--black-05 pa2" :title="imgTitle" :alt="imgTitle">
+      <img :src="image" width="70px" height="70px" class="br-100 dib ba b--black-05 pa2" :title="imgTitle" :alt="imgTitle">
     </a>
   </article>
 </template>

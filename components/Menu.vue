@@ -5,8 +5,8 @@
       <span class="white b f3" style="line-height: 2rem">{{siteName}}</span>
     </a>
     <div class="db dtc-l v-mid w-100 w-75-l tc tr-l">
-      <a class="link white dim f6 f5-l dib mr3 mr4-l" target="blank" href="https://medium.com/la-baleine" title="Consulter les articles sur le blog de La Baleine">
-        Blog
+      <a class="link white dim f6 f5-l dib mr3 mr4-l" href="/equipe" title="Découvrez l'équipe de La Baleine">
+        Equipe
       </a>
       <a class="link white dim f6 f5-l dib mr3 mr4-l" href="/lexique" title="Définitions des termes utilisés dans le milieu des crypto monnaies">
         Lexique
