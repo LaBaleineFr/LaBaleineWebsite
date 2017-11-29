@@ -2,7 +2,7 @@
   <footer class="white">
     <div class="bg-white pt3 pb3">
       <h2 class="tc mb3 black">Rejoignez-nous !</h2>
-      <section class="flex flex-wrap justify-around justify-between-ns mw8 center">
+      <section class="flex flex-wrap justify-around justify-between-ns mw6 center">
         <SocialCard title="Twitter" :url="twitterUrl" image="/twitter.svg" />
         <SocialCard title="Twitch" :url="twitchUrl" image="/twitch.svg" />
         <SocialCard title="Youtube" :url="youtubeUrl" image="/youtube.png" />

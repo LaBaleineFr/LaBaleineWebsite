@@ -7,7 +7,7 @@ export default {
   twitterUrl: 'https://twitter.com/BaleineFR',
   twitchUrl: 'https://www.twitch.tv/baleinefr',
   youtubeUrl: 'https://www.youtube.com/channel/UCdEgqcbima-Bv5jnArrXiKA?feature=hovercard?&ab_channel=LaBaleine',
-  discordUrl: 'https://discordapp.com/invite/2YY5EUt',
+  discordUrl: 'https://discord.gg/mRrX3tV',
   githubUrl: 'https://github.com/LaBaleineFr',
   email: 'baleinefr@gmail.com',
 }

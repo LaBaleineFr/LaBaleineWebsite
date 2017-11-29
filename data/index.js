@@ -3,6 +3,7 @@ import ressources from './ressources';
 import teamMembers from './teamMembers';
 import projects from './projects';
 import miningPools from './miningPools';
+import partners from './partners';
 
 var baleineBotApi = axios.create({
   baseURL: 'https://api.labaleine.gg/'
@@ -29,10 +30,15 @@ function getMiningPools() {
   return miningPools;
 }
 
+function getPartners() {
+  return partners;
+}
+
 export {
   getGlossary,
   getRessources,
   getTeamMembers,
   getProjects,
   getMiningPools,
+  getPartners,
 };

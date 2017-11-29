@@ -1,11 +1,10 @@
 <template>
   <article
-    class="w-100 h5 mb3 bg-white relative cover bg-center"
+    class="w-100 h5 mb5 bg-white relative cover bg-center"
     v-bind:style="{backgroundImage: `url(${project.image})`}"
     :title="project.name"
   >
     <a :href="project.url" class="db w-100 h-100 link hide-child">
-      <h3 class="f2 w-100 white pt3 absolute bottom-0">{{project.name}}</h3>
       <div class="f4 white w-100 h-100 pa3 bg-blue absolute top-0 left-0 child">
         {{project.description}}
       </div>
@@ -35,7 +34,7 @@ a h3 {
 }
 @media screen and (min-width: 480px) {
   article {
-    width: calc((100%/2) - 10px);
+    width: calc(45% - 10px);
   }
   article:nth-child(2n) {
     margin-right: 0;
