@@ -14,7 +14,7 @@
 
 <script>
 import config from '../project.config.js';
-import { getTeamMembers, getProjects, getPartners } from '../data';
+import { getProjects, getPartners } from '../data';
 import ProjectCard from '../components/ProjectCard.vue';
 import PartnerCard from '../components/PartnerCard.vue';
 

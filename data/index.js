@@ -1,8 +1,6 @@
 import axios from 'axios';
 import ressources from './ressources';
-import teamMembers from './teamMembers';
 import projects from './projects';
-import miningPools from './miningPools';
 import partners from './partners';
 
 var baleineBotApi = axios.create({
@@ -18,16 +16,8 @@ function getRessources(){
   return ressources;
 }
 
-function getTeamMembers(){
-  return teamMembers;
-}
-
 function getProjects() {
   return projects;
-}
-
-function getMiningPools() {
-  return miningPools;
 }
 
 function getPartners() {
@@ -37,8 +27,6 @@ function getPartners() {
 export {
   getGlossary,
   getRessources,
-  getTeamMembers,
   getProjects,
-  getMiningPools,
   getPartners,
 };

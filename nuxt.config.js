@@ -36,7 +36,6 @@ module.exports = {
     routes: [
       '/ressources',
       '/lexique',
-      '/equipe',
     ]
   },
   router: {

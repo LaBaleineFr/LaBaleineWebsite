@@ -12,12 +12,6 @@
     "image": "/project/github.jpg"
   },
   {
-    "name": "MiningPool",
-    "description": "Mining pool. Rejoignez nous pour miner facilement et efficacement.",
-    "url": "/projets/mining-pool",
-    "image": "/project/mining.jpg"
-  },
-  {
     "name": "Blog",
     "description": "Consulter les articles sur le blog de La Baleine",
     "url": "https://medium.com/la-baleine",
