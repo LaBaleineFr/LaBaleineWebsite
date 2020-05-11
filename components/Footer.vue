@@ -20,37 +20,29 @@
         <div class="f5 mb2">Bitcoin</div>
         <div class="f7 white-70">32N18uL4MDEVodREtcFwzX5viEmT7Zvfoc</div>
       </div>
-      <div class="tc">
-        <a
-          target="_blank"
-          href="https://shapeshift.io/shifty.html?destination=32N18uL4MDEVodREtcFwzX5viEmT7Zvfoc&amp;output=BTC"
-        >
-          <img src="https://shapeshift.io/images/shifty/xs_dark_altcoins.png" class="ss-button" />
-        </a>
-      </div>
     </div>
   </footer>
 </template>
 
 <script>
-import config from '../project.config.js';
-import SocialCard from '../components/SocialCard.vue';
+import config from "../project.config.js";
+import SocialCard from "../components/SocialCard.vue";
 
 export default {
-  name: 'Footer',
+  name: "Footer",
   components: {
-    SocialCard,
+    SocialCard
   },
   data() {
     return {
-      label:`${config.siteName} © ${new Date().getFullYear()}`,
-      email:config.email,
+      label: `${config.siteName} © ${new Date().getFullYear()}`,
+      email: config.email,
       twitterUrl: config.twitterUrl,
       twitchUrl: config.twitchUrl,
       youtubeUrl: config.youtubeUrl,
       discordUrl: config.discordUrl,
-      githubUrl: config.githubUrl,
-    }
-  },
-}
+      githubUrl: config.githubUrl
+    };
+  }
+};
 </script>

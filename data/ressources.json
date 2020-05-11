@@ -58,11 +58,6 @@
     "title": "Outils et applications",
     "links": [
       {
-        "name": "Projection des gains",
-        "url": "/cryptoProjectionBaleine.xlsx",
-        "description": "Tableur excel permettant de suivre et d'estimer ses gains futurs"
-      },
-      {
         "name": "Blockfolio",
         "url": "http://blockfolio.com/",
         "description": "Application mobile permettant de suivre le cours des crypto monnaies"
