@@ -20,3 +20,10 @@ $ yarn dev
 # generate static project
 $ yarn generate
 ```
+
+## Deploy
+
+- Install netlify-cli
+- Run `yarn generate`
+- Go to `/dist` file
+- Run `netlify deploy --prod`
