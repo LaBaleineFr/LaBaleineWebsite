@@ -6,9 +6,9 @@
   "private": true,
   "dependencies": {
     "axios": "^0.19.2",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.15",
     "nuxt": "latest",
-    "tachyons": "^4.8.1"
+    "tachyons": "^4.12.0"
   },
   "scripts": {
     "dev": "nuxt",
